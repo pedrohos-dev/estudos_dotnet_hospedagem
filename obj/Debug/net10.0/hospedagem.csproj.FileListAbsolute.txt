@@ -1,0 +1,15 @@
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\bin\Debug\net10.0\hospedagem.exe
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\bin\Debug\net10.0\hospedagem.deps.json
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\bin\Debug\net10.0\hospedagem.runtimeconfig.json
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\bin\Debug\net10.0\hospedagem.dll
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\bin\Debug\net10.0\hospedagem.pdb
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.AssemblyInfoInputs.cache
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.AssemblyInfo.cs
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.csproj.CoreCompileInputs.cache
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.sourcelink.json
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.dll
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\refint\hospedagem.dll
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.pdb
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\hospedagem.genruntimeconfig.cache
+C:\Users\pedroho\Documents\.NET_studies\hospedagem\obj\Debug\net10.0\ref\hospedagem.dll

@@ -11,21 +11,29 @@ namespace hospedagem.Models
         public Suite? Suite { get; set; }
         public int DiasReservados { get; set; }
 
+        public Reserva(int diasReservados)
+        {
+            DiasReservados = diasReservados;
+        }
+
         public void CadastrarHospedes(List<Pessoa> hospedes)
         {
-            Hospedes.Add(new Pessoa());
+            if (hospedes.Count <= Suite!.Capacidade)
+            {
+                Hospedes = hospedes;
+            }
+            else
+            {
+                throw new Exception("A capacidade dos héspedes não pode exceder a capacidade da suíte");
+            }
 
         }
         public void CadastrarSuite(Suite suite)
         {
-
+            Suite = suite;
         }
-        public dynamic ObterQuantidadeHospedes => Hospedes!.Count != 0 ? Hospedes!.Count : "Não há hóspedes";
-        
-        public decimal CalcularValorDiaria()
-        {
-            
+        public int ObterQuantidadeHospedes => Hospedes!.Count != 0 ? Hospedes!.Count : throw new ArgumentException("Não há hóspedes");
 
-        }
+        public decimal CalcularValorDiaria => DiasReservados < 10 ? DiasReservados * Suite!.ValorDiaria : (DiasReservados) * (Suite!.ValorDiaria) * (0.9M);
     }
 }
